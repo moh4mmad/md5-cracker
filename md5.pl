@@ -16,7 +16,7 @@ $pass = $pass. "!\"\$%&/()=?-.:\\*'-_:.;,";
 
 if($pass eq "" or $ARGV[3] eq "") {usage();};
 
-if (length($ARGV[3]) != 32) { die "Sorry but it seems that the MD5 is not valid!\n";};
+if (length($ARGV[3]) != 32) { die "Invalid MD5!\n";};
 
 print "Selected charset for attack: '$pass\'\n";
 
